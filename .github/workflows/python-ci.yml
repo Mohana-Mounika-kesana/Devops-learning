@@ -5,6 +5,11 @@ on:
     branches:
       - main
       - feature/update
+  pull_request:
+    branches:
+      - main
+      - feature/update
+
 
 jobs:
   test-job:
