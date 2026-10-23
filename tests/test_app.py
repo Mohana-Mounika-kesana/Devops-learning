@@ -1,4 +1,4 @@
-from src.app import add,subtract
+from src.app import add,subtract,mul
 
 def test_add():
     assert add(2,3)==5
@@ -8,3 +8,6 @@ def test_subtract():
     assert subtract(2,0)==2
     assert subtract(0,2)==-2
     assert subtract(-1,-1)==0
+def test_mul():
+    assert mul(0,1)==0
+    assert mul(-1,2)==-2
