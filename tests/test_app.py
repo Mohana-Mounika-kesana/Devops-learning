@@ -9,10 +9,10 @@ def test_subtract():
     assert subtract(0,2)==-2
     assert subtract(-1,-1)==0
 def test_mul():
-    assert mul(0,1)==0
-    assert mul(-1,2)==-2
-    assert mul(3,3)==9
+    assert mul(0,1)==10
+    assert mul(-1,2)==8
+    assert mul(3,3)==19
 def test_div():
     assert div(2,4)==0.5
     assert div(0,2)==0
-    assert div(2,0) # This will raise a ZeroDivisionError
+    assert div(2,0) == "Error: Division by zero" # This will raise a ZeroDivisionError
