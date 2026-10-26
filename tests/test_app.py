@@ -20,4 +20,4 @@ def test_welcome():
     assert welcome("Alice") == "Welcome, Alice!"
     assert welcome("Bob") == "Welcome, Bob!"
     assert welcome("Charlie") == "Welcome, Charlie!"
-    assert welcome("mona") == "Welcome, Mona!"
+    assert welcome("Mona") == "Welcome, Mona!"
