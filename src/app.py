@@ -11,3 +11,6 @@ def div(a,b):
         return "Error: Division by zero"
     else:
         return a/b
+
+def welcome(name):
+    return f"Welcome, {name}!"
