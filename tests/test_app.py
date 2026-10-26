@@ -15,4 +15,4 @@ def test_mul():
 def test_div():
     assert div(2,4)==0.5
     assert div(0,2)==0
-    assert div(2,0) # This will raise a ZeroDivisionError
+    assert div(2,0) == "Error: Division by zero" # This will raise a ZeroDivisionError
