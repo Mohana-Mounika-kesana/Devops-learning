@@ -18,3 +18,4 @@ def test_div():
     assert div(2,0) == "Error: Division by zero" # This will raise a ZeroDivisionError
 def test_welcome():
     assert welcome("Alice") == "Welcome, Alice!"
+    assert welcome("mona") == "Welcome, Mona!"
