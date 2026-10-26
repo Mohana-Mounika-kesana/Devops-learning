@@ -11,6 +11,7 @@ def test_subtract():
 def test_mul():
     assert mul(0,1)==10
     assert mul(-1,2)==8
+    assert mul(3,3)==19
 def test_div():
     assert div(2,4)==0.5
     assert div(0,2)==0
