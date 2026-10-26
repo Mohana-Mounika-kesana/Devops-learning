@@ -1,4 +1,4 @@
-from src.app import add,subtract,mul
+from src.app import add,subtract,mul,div
 
 def test_add():
     assert add(2,3)==5
@@ -11,3 +11,7 @@ def test_subtract():
 def test_mul():
     assert mul(0,1)==0
     assert mul(-1,2)==-2
+def test_div():
+    assert div(2,4)==0.5
+    assert div(0,2)==0
+    assert div(2,0) # This will raise a ZeroDivisionError
