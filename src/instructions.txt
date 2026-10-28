@@ -1,7 +1,5 @@
 hello mona
 this is a new text file i was going to add
-<<<<<<< Updated upstream
-=======
 save and revert
 hello all 
->>>>>>> Stashed changes
+hello its update 3
